@@ -78,8 +78,8 @@ function setAtribut(product_name = "", price = 0, counter = 0, coffe_img = "", e
         product_name: product_name, //Название кофе.
         price: price,               //Цена кофе.
         counter: counter,           //Порядковый номер.
-        coffee_img: coffe_img,       //Графический образ продукта.
-        element_id: e_id
+        coffee_img: coffe_img,      //Графический образ продукта.
+        element_id: e_id            //Объект.
     };
     return(element);
 }
