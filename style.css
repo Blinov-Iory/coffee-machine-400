@@ -1,0 +1,81 @@
+.coffee-machine {
+	border: 3px solid black;
+	margin-top: 50px;
+}
+
+.coffee-list {
+	background-image: url('img/background.jpg');
+	background-size: cover;
+	height: 100%;
+}
+
+.coffee-item {
+	background-color: rgba(0,0,0,.8);
+	border-radius: 40px;
+	cursor: pointer;
+}
+
+.coffee-item:hover {
+	background-color: rgba(25,25,25,.8);
+}
+
+.coffee-item img {
+	height: 80px;
+	background-color: white;
+	border-radius: 50%;
+}
+
+.coffee-item span {
+	color: white;
+	margin-left: 15px;
+}
+
+.coffee-operation {
+	background-color: lightgrey;
+	height: 100%;
+}
+
+.display {
+	min-height: 100px;
+	background-color: lightgreen;
+	border: 3px solid green;
+	box-sizing: border-box;
+}
+
+.coffee-cup {
+	background-color: rgba(0,0,0,.3);
+	border: 2px solid black;
+	min-height: 200px;
+}
+
+
+.coffee-cup img {
+	width: 90%;
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	cursor: pointer;
+}
+
+.coffee-atm {
+	text-align: center;
+}
+.coffee-atm img {
+	width: 90%;
+}
+
+.coffee-change {
+	background-color: grey;
+	border: 3px solid black;
+	width: 100%;
+	min-height: 100px;
+	position: relative;
+}
+
+.wallet img {
+	display: inline-block;
+	width: 200px;
+	cursor: pointer;
+	user-select: none;
+}
